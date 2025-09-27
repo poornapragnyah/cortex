@@ -1,0 +1,1315 @@
+{
+  "conference_schedule": {
+    "total_sessions": 30,
+    "scheduling_algorithm": "Knowledge Graph + Topological Sort",
+    "principles": [
+      "Prerequisites must come before dependent topics",
+      "Beginner content before intermediate/advanced",
+      "Related topics grouped together",
+      "Logical progression within topic areas"
+    ],
+    "sessions": [
+      {
+        "session_order": 1,
+        "talk_id": "T03",
+        "title": "Introduction to Natural Language Processing: Text to Insights",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "NLP",
+          "Text Processing",
+          "Sentiment Analysis",
+          "Core Concepts"
+        ],
+        "abstract": "Learn the basics of processing and understanding human language, including tokenization, sentiment analysis, and topic modeling.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement. Core NLP content."
+      },
+      {
+        "session_order": 2,
+        "talk_id": "T10",
+        "title": "AI Ethics: Navigating Bias, Fairness, and Transparency",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "AI Ethics",
+          "Bias",
+          "Fairness",
+          "Responsible AI",
+          "Transparency"
+        ],
+        "abstract": "A critical look at the ethical challenges in AI, discussing how algorithmic bias is created and what can be done to promote fairness.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement. Core AI Ethics content."
+      },
+      {
+        "session_order": 3,
+        "talk_id": "T20",
+        "title": "AI for Scientific Discovery: A Case Study in Genomics",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "AI Application",
+          "Genomics",
+          "Bioinformatics",
+          "Scientific Discovery",
+          "Healthcare"
+        ],
+        "abstract": "See a real-world application of machine learning in analyzing genomic data to accelerate research and drug discovery.",
+        "prerequisites": [],
+        "reasoning": "Advanced content requiring solid background knowledge."
+      },
+      {
+        "session_order": 4,
+        "talk_id": "T21",
+        "title": "The Psychology of User Engagement in AI Products",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Product Management",
+          "UX",
+          "AI Products",
+          "Business"
+        ],
+        "abstract": "A non-technical talk focused on product management principles for designing AI-powered features that are intuitive and valuable to users.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement."
+      },
+      {
+        "session_order": 5,
+        "talk_id": "T25",
+        "title": "Agile Methodologies for Data Science Teams",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Project Management",
+          "Agile",
+          "Data Science Teams",
+          "Workflow"
+        ],
+        "abstract": "How to adapt agile project management principles for the unique, research-oriented workflows of data science projects.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement."
+      },
+      {
+        "session_order": 6,
+        "talk_id": "T30",
+        "title": "Building a Career in Data Science: Skills and Strategies",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Career",
+          "Data Science",
+          "Skills",
+          "Interviewing",
+          "Professional Development"
+        ],
+        "abstract": "A panel discussion offering advice for aspiring data scientists on portfolio building, interviewing, and navigating a career in the field.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement."
+      },
+      {
+        "session_order": 7,
+        "talk_id": "T12",
+        "title": "An Introduction to Reinforcement Learning",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Reinforcement Learning",
+          "Q-Learning",
+          "Core Concepts",
+          "AI"
+        ],
+        "abstract": "Grasp the fundamentals of RL, including agents, environments, rewards, and the core concepts behind Q-learning.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement."
+      },
+      {
+        "session_order": 8,
+        "talk_id": "T24",
+        "title": "The Future of Work: How Automation is Reshaping Industries",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Societal Impact",
+          "Automation",
+          "Future of Work",
+          "Economics",
+          "AI Ethics"
+        ],
+        "abstract": "A broad look at the societal and economic impacts of AI and automation on jobs, skills, and the global workforce.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement. Core AI Ethics content."
+      },
+      {
+        "session_order": 9,
+        "talk_id": "T22",
+        "title": "Venture Capital Trends in the AI Startup Ecosystem",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Business",
+          "Venture Capital",
+          "Startups",
+          "AI Industry",
+          "Finance"
+        ],
+        "abstract": "An analysis of where investment is flowing in the AI industry, from foundational model companies to AI-powered SaaS applications.",
+        "prerequisites": [],
+        "reasoning": "Foundational content suitable for early placement."
+      },
+      {
+        "session_order": 10,
+        "talk_id": "T29",
+        "title": "A/B Testing and Causal Inference for Product Decisions",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Statistics",
+          "Causal Inference",
+          "A/B Testing",
+          "Product Analytics",
+          "Data Science"
+        ],
+        "abstract": "Move beyond simple correlations and learn how to use statistical methods to determine the true causal impact of product changes.",
+        "prerequisites": [],
+        "reasoning": "Builds on basic concepts, placed after foundational talks."
+      },
+      {
+        "session_order": 11,
+        "talk_id": "T01",
+        "title": "Foundations of Machine Learning: From Regression to Random Forests",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Machine Learning",
+          "Core Concepts",
+          "Supervised Learning",
+          "Regression",
+          "Classification"
+        ],
+        "abstract": "An essential introduction to the core concepts of supervised and unsupervised learning, covering fundamental algorithms without the deep math.",
+        "prerequisites": [
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Foundational content suitable for early placement. Builds on concepts from 'Introduction to Natural Language Processing: Text to Insights' and 'An Introduction to Reinforcement Learning'. Core Machine Learning content."
+      },
+      {
+        "session_order": 12,
+        "talk_id": "T23",
+        "title": "Quantum Computing: An Overview for the AI Practitioner",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Quantum Computing",
+          "Future Tech",
+          "AI",
+          "Algorithms"
+        ],
+        "abstract": "What is quantum computing and how might it intersect with machine learning in the future? A high-level overview for a technical audience.",
+        "prerequisites": [],
+        "reasoning": "Builds on basic concepts, placed after foundational talks."
+      },
+      {
+        "session_order": 13,
+        "talk_id": "T14",
+        "title": "Time Series Forecasting with Prophet",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Forecasting",
+          "Time Series",
+          "Prophet",
+          "Statistics",
+          "Analytics"
+        ],
+        "abstract": "A practical guide to forecasting future trends using Facebook's Prophet library, designed for business analysts and data scientists.",
+        "prerequisites": [
+          "T29"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Requires understanding from 'A/B Testing and Causal Inference for Product Decisions'."
+      },
+      {
+        "session_order": 14,
+        "talk_id": "T05",
+        "title": "Fundamentals of Computer Vision with CNNs",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Computer Vision",
+          "CNN",
+          "Image Classification",
+          "Deep Learning"
+        ],
+        "abstract": "A beginner-friendly guide to how computers 'see,' focusing on Convolutional Neural Networks (CNNs) for image classification.",
+        "prerequisites": [
+          "T01"
+        ],
+        "reasoning": "Foundational content suitable for early placement. Requires understanding from 'Foundations of Machine Learning: From Regression to Random Forests'. Core Computer Vision/Deep Learning content."
+      },
+      {
+        "session_order": 15,
+        "talk_id": "T07",
+        "title": "Data Warehousing in the Cloud: A Primer",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Data Engineering",
+          "Cloud",
+          "Data Warehouse",
+          "SQL",
+          "Big Data"
+        ],
+        "abstract": "An overview of modern data warehousing solutions like BigQuery and Snowflake, focusing on storing and accessing large-scale datasets.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Foundational content suitable for early placement. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights' and 'An Introduction to Reinforcement Learning'. Core Data Engineering content."
+      },
+      {
+        "session_order": 16,
+        "talk_id": "T17",
+        "title": "Data Visualization with Plotly: Creating Interactive Dashboards",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Data Visualization",
+          "Plotly",
+          "Dashboards",
+          "BI",
+          "Python"
+        ],
+        "abstract": "Learn how to build beautiful, interactive data visualizations and web-based dashboards using the Plotly library in Python.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Foundational content suitable for early placement. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights' and 'An Introduction to Reinforcement Learning'."
+      },
+      {
+        "session_order": 17,
+        "talk_id": "T18",
+        "title": "Anomaly Detection for Cybersecurity",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Cybersecurity",
+          "Anomaly Detection",
+          "Security AI",
+          "Machine Learning"
+        ],
+        "abstract": "Explore machine learning techniques used to identify unusual patterns and potential threats in network traffic and system logs.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights' and 'An Introduction to Reinforcement Learning'. Core Machine Learning content."
+      },
+      {
+        "session_order": 18,
+        "talk_id": "T26",
+        "title": "Blockchain and AI: Synergies and Opportunities",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Blockchain",
+          "AI",
+          "Decentralization",
+          "Future Tech",
+          "Web3"
+        ],
+        "abstract": "Explores the potential intersection of decentralized ledger technology and artificial intelligence, covering topics like data integrity and decentralized autonomous organizations (DAOs).",
+        "prerequisites": [],
+        "reasoning": "Builds on basic concepts, placed after foundational talks."
+      },
+      {
+        "session_order": 19,
+        "talk_id": "T28",
+        "title": "The Legal Landscape of Generative AI",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Legal",
+          "Copyright",
+          "Generative AI",
+          "AI Ethics",
+          "Regulation"
+        ],
+        "abstract": "A discussion on the emerging legal and copyright issues surrounding AI-generated content, training data, and intellectual property.",
+        "prerequisites": [
+          "T05"
+        ],
+        "reasoning": "Foundational content suitable for early placement. Requires understanding from 'Fundamentals of Computer Vision with CNNs'. Core AI Ethics content."
+      },
+      {
+        "session_order": 20,
+        "talk_id": "T08",
+        "title": "Building Scalable Data Pipelines with Apache Airflow",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Data Engineering",
+          "ETL",
+          "Orchestration",
+          "Airflow",
+          "Pipelines"
+        ],
+        "abstract": "Learn how to orchestrate complex data workflows, moving and transforming data from source to destination for analytics and ML.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12",
+          "T07"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights', 'An Introduction to Reinforcement Learning' and 'Data Warehousing in the Cloud: A Primer'. Core Data Engineering content."
+      },
+      {
+        "session_order": 21,
+        "talk_id": "T09",
+        "title": "MLOps in Practice: Automating the Machine Learning Lifecycle",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "MLOps",
+          "Deployment",
+          "Automation",
+          "CI/CD",
+          "Lifecycle Management"
+        ],
+        "abstract": "Go beyond the model and learn how to build a robust, automated pipeline for training, versioning, and deploying models into production.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests' and 'Anomaly Detection for Cybersecurity'. Core MLOps content."
+      },
+      {
+        "session_order": 22,
+        "talk_id": "T13",
+        "title": "Deep Reinforcement Learning for Game AI",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Reinforcement Learning",
+          "Deep Learning",
+          "Game AI",
+          "Robotics"
+        ],
+        "abstract": "Building on RL basics, this talk explores how deep neural networks can be used to solve complex problems, with a focus on creating intelligent game agents.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Advanced content requiring solid background knowledge. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests' and 'Anomaly Detection for Cybersecurity'. Core Deep Learning content."
+      },
+      {
+        "session_order": 23,
+        "talk_id": "T19",
+        "title": "Recommender Systems: From Collaborative Filtering to Deep Learning",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Recommender Systems",
+          "Collaborative Filtering",
+          "Deep Learning",
+          "Personalization"
+        ],
+        "abstract": "An overview of the evolution of recommender systems, starting from classic matrix factorization methods to modern, deep learning-based approaches.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests' and 'Anomaly Detection for Cybersecurity'. Core Deep Learning content."
+      },
+      {
+        "session_order": 24,
+        "talk_id": "T11",
+        "title": "Explainable AI (XAI): Techniques with SHAP and LIME",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "XAI",
+          "Explainability",
+          "Model Interpretation",
+          "SHAP",
+          "LIME",
+          "AI Ethics"
+        ],
+        "abstract": "This technical talk introduces methods for interpreting 'black box' models, making their predictions understandable to humans.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests' and 'Anomaly Detection for Cybersecurity'. Core AI Ethics content."
+      },
+      {
+        "session_order": 25,
+        "talk_id": "T15",
+        "title": "Graph Neural Networks: The Future of Connected Data",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Graph Neural Networks",
+          "GNN",
+          "Graph Data",
+          "Deep Learning",
+          "Networks"
+        ],
+        "abstract": "Discover how GNNs can be used to model relationships in data, with applications in social networks, recommendation engines, and drug discovery.",
+        "prerequisites": [
+          "T05",
+          "T13",
+          "T19",
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Advanced content requiring solid background knowledge. Builds on concepts from 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Recommender Systems: From Collaborative Filtering to Deep Learning', 'Foundations of Machine Learning: From Regression to Random Forests' and 'Anomaly Detection for Cybersecurity'. Core Deep Learning content."
+      },
+      {
+        "session_order": 26,
+        "talk_id": "T16",
+        "title": "The Role of Vector Databases in Generative AI",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Vector Database",
+          "Generative AI",
+          "LLM",
+          "Embeddings",
+          "Infrastructure"
+        ],
+        "abstract": "Understand why specialized databases like Pinecone and Weaviate are becoming essential infrastructure for building applications with LLMs.",
+        "prerequisites": [
+          "T01",
+          "T18",
+          "T03",
+          "T05",
+          "T19"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Introduction to Natural Language Processing: Text to Insights', 'Fundamentals of Computer Vision with CNNs' and 'Recommender Systems: From Collaborative Filtering to Deep Learning'."
+      },
+      {
+        "session_order": 27,
+        "talk_id": "T27",
+        "title": "Edge Computing for Real-Time AI",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Edge AI",
+          "IoT",
+          "Deployment",
+          "Real-Time AI",
+          "Hardware"
+        ],
+        "abstract": "Learn about the challenges and benefits of deploying AI models on edge devices like smartphones and IoT sensors for low-latency inference.",
+        "prerequisites": [
+          "T05",
+          "T19"
+        ],
+        "reasoning": "Builds on basic concepts, placed after foundational talks. Builds on concepts from 'Fundamentals of Computer Vision with CNNs' and 'Recommender Systems: From Collaborative Filtering to Deep Learning'."
+      },
+      {
+        "session_order": 28,
+        "talk_id": "T04",
+        "title": "Mastering Large Language Models: Fine-Tuning and Deployment",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "NLP",
+          "LLM",
+          "Generative AI",
+          "Fine-Tuning",
+          "Deployment"
+        ],
+        "abstract": "This session covers practical techniques for fine-tuning pre-trained LLMs like GPT and Llama for specific tasks and deploying them efficiently.",
+        "prerequisites": [
+          "T16",
+          "T01",
+          "T18",
+          "T03",
+          "T05",
+          "T13",
+          "T15",
+          "T19"
+        ],
+        "reasoning": "Advanced content requiring solid background knowledge. Builds on concepts from 'The Role of Vector Databases in Generative AI', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Introduction to Natural Language Processing: Text to Insights', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data' and 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Core NLP content."
+      },
+      {
+        "session_order": 29,
+        "talk_id": "T02",
+        "title": "Advanced Deep Learning Architectures: Transformers and Beyond",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Machine Learning",
+          "Deep Learning",
+          "Transformers",
+          "NLP",
+          "Architecture"
+        ],
+        "abstract": "A technical deep dive into the architecture of Transformers, attention mechanisms, and their impact on modern AI. Assumes familiarity with basic neural networks.",
+        "prerequisites": [
+          "T12",
+          "T01",
+          "T18",
+          "T05",
+          "T13",
+          "T15",
+          "T19",
+          "T03",
+          "T04"
+        ],
+        "reasoning": "Advanced content requiring solid background knowledge. Builds on concepts from 'An Introduction to Reinforcement Learning', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning', 'Introduction to Natural Language Processing: Text to Insights' and 'Mastering Large Language Models: Fine-Tuning and Deployment'. Core Machine Learning/Deep Learning/NLP content."
+      },
+      {
+        "session_order": 30,
+        "talk_id": "T06",
+        "title": "Generative AI for Art and Design: Exploring GANs and Diffusion Models",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Computer Vision",
+          "Generative AI",
+          "GANs",
+          "Diffusion Models",
+          "Art"
+        ],
+        "abstract": "Explore the cutting-edge of image generation, from the mechanics of Generative Adversarial Networks (GANs) to the power of modern diffusion models.",
+        "prerequisites": [
+          "T01",
+          "T18",
+          "T02",
+          "T05",
+          "T13",
+          "T15",
+          "T19"
+        ],
+        "reasoning": "Advanced content requiring solid background knowledge. Builds on concepts from 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Advanced Deep Learning Architectures: Transformers and Beyond', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data' and 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Core Computer Vision content."
+      }
+    ],
+    "graph_traversal_sequence": [
+      "T03",
+      "T12",
+      "T23",
+      "T26",
+      "T01",
+      "T05",
+      "T18",
+      "T09",
+      "T19",
+      "T16",
+      "T13",
+      "T15",
+      "T04",
+      "T02",
+      "T06",
+      "T06",
+      "T02",
+      "T02",
+      "T04",
+      "T27",
+      "T27",
+      "T11",
+      "T19",
+      "T28",
+      "T07",
+      "T08",
+      "T17",
+      "T13",
+      "T25",
+      "T21",
+      "T22",
+      "T20",
+      "T30",
+      "T29",
+      "T14",
+      "T10",
+      "T24"
+    ],
+    "detailed_traversal": [
+      {
+        "session_order": 1,
+        "talk_id": "T03",
+        "title": "Introduction to Natural Language Processing: Text to Insights",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "NLP",
+          "Text Processing",
+          "Sentiment Analysis",
+          "Core Concepts"
+        ],
+        "abstract": "Learn the basics of processing and understanding human language, including tokenization, sentiment analysis, and topic modeling.",
+        "prerequisites": [],
+        "reasoning": "Early session - foundational content. Enables 9 follow-up topics."
+      },
+      {
+        "session_order": 2,
+        "talk_id": "T12",
+        "title": "An Introduction to Reinforcement Learning",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Reinforcement Learning",
+          "Q-Learning",
+          "Core Concepts",
+          "AI"
+        ],
+        "abstract": "Grasp the fundamentals of RL, including agents, environments, rewards, and the core concepts behind Q-learning.",
+        "prerequisites": [],
+        "reasoning": "Early session - foundational content. Enables 8 follow-up topics."
+      },
+      {
+        "session_order": 3,
+        "talk_id": "T23",
+        "title": "Quantum Computing: An Overview for the AI Practitioner",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Quantum Computing",
+          "Future Tech",
+          "AI",
+          "Algorithms"
+        ],
+        "abstract": "What is quantum computing and how might it intersect with machine learning in the future? A high-level overview for a technical audience.",
+        "prerequisites": [],
+        "reasoning": "Early session - foundational content. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 4,
+        "talk_id": "T26",
+        "title": "Blockchain and AI: Synergies and Opportunities",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Blockchain",
+          "AI",
+          "Decentralization",
+          "Future Tech",
+          "Web3"
+        ],
+        "abstract": "Explores the potential intersection of decentralized ledger technology and artificial intelligence, covering topics like data integrity and decentralized autonomous organizations (DAOs).",
+        "prerequisites": [],
+        "reasoning": "Early session - foundational content."
+      },
+      {
+        "session_order": 5,
+        "talk_id": "T01",
+        "title": "Foundations of Machine Learning: From Regression to Random Forests",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Machine Learning",
+          "Core Concepts",
+          "Supervised Learning",
+          "Regression",
+          "Classification"
+        ],
+        "abstract": "An essential introduction to the core concepts of supervised and unsupervised learning, covering fundamental algorithms without the deep math.",
+        "prerequisites": [
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Early session - foundational content. Follows prerequisites: 'Introduction to Natural Language Processing: Text to Insights', 'An Introduction to Reinforcement Learning'. Enables 14 follow-up topics."
+      },
+      {
+        "session_order": 6,
+        "talk_id": "T05",
+        "title": "Fundamentals of Computer Vision with CNNs",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Computer Vision",
+          "CNN",
+          "Image Classification",
+          "Deep Learning"
+        ],
+        "abstract": "A beginner-friendly guide to how computers 'see,' focusing on Convolutional Neural Networks (CNNs) for image classification.",
+        "prerequisites": [
+          "T01"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests'. Enables 8 follow-up topics."
+      },
+      {
+        "session_order": 7,
+        "talk_id": "T18",
+        "title": "Anomaly Detection for Cybersecurity",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Cybersecurity",
+          "Anomaly Detection",
+          "Security AI",
+          "Machine Learning"
+        ],
+        "abstract": "Explore machine learning techniques used to identify unusual patterns and potential threats in network traffic and system logs.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights', 'An Introduction to Reinforcement Learning'. Enables 9 follow-up topics."
+      },
+      {
+        "session_order": 8,
+        "talk_id": "T09",
+        "title": "MLOps in Practice: Automating the Machine Learning Lifecycle",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "MLOps",
+          "Deployment",
+          "Automation",
+          "CI/CD",
+          "Lifecycle Management"
+        ],
+        "abstract": "Go beyond the model and learn how to build a robust, automated pipeline for training, versioning, and deploying models into production.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 9,
+        "talk_id": "T19",
+        "title": "Recommender Systems: From Collaborative Filtering to Deep Learning",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Recommender Systems",
+          "Collaborative Filtering",
+          "Deep Learning",
+          "Personalization"
+        ],
+        "abstract": "An overview of the evolution of recommender systems, starting from classic matrix factorization methods to modern, deep learning-based approaches.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'. Enables 6 follow-up topics."
+      },
+      {
+        "session_order": 10,
+        "talk_id": "T16",
+        "title": "The Role of Vector Databases in Generative AI",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Vector Database",
+          "Generative AI",
+          "LLM",
+          "Embeddings",
+          "Infrastructure"
+        ],
+        "abstract": "Understand why specialized databases like Pinecone and Weaviate are becoming essential infrastructure for building applications with LLMs.",
+        "prerequisites": [
+          "T01",
+          "T18",
+          "T03",
+          "T05",
+          "T19"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Introduction to Natural Language Processing: Text to Insights', 'Fundamentals of Computer Vision with CNNs', 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 11,
+        "talk_id": "T13",
+        "title": "Deep Reinforcement Learning for Game AI",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Reinforcement Learning",
+          "Deep Learning",
+          "Game AI",
+          "Robotics"
+        ],
+        "abstract": "Building on RL basics, this talk explores how deep neural networks can be used to solve complex problems, with a focus on creating intelligent game agents.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'. Enables 4 follow-up topics."
+      },
+      {
+        "session_order": 12,
+        "talk_id": "T15",
+        "title": "Graph Neural Networks: The Future of Connected Data",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Graph Neural Networks",
+          "GNN",
+          "Graph Data",
+          "Deep Learning",
+          "Networks"
+        ],
+        "abstract": "Discover how GNNs can be used to model relationships in data, with applications in social networks, recommendation engines, and drug discovery.",
+        "prerequisites": [
+          "T05",
+          "T13",
+          "T19",
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Recommender Systems: From Collaborative Filtering to Deep Learning', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'. Enables 3 follow-up topics."
+      },
+      {
+        "session_order": 13,
+        "talk_id": "T04",
+        "title": "Mastering Large Language Models: Fine-Tuning and Deployment",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "NLP",
+          "LLM",
+          "Generative AI",
+          "Fine-Tuning",
+          "Deployment"
+        ],
+        "abstract": "This session covers practical techniques for fine-tuning pre-trained LLMs like GPT and Llama for specific tasks and deploying them efficiently.",
+        "prerequisites": [
+          "T16",
+          "T01",
+          "T18",
+          "T03",
+          "T05",
+          "T13",
+          "T15",
+          "T19"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'The Role of Vector Databases in Generative AI', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Introduction to Natural Language Processing: Text to Insights', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Enables 2 follow-up topics."
+      },
+      {
+        "session_order": 14,
+        "talk_id": "T02",
+        "title": "Advanced Deep Learning Architectures: Transformers and Beyond",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Machine Learning",
+          "Deep Learning",
+          "Transformers",
+          "NLP",
+          "Architecture"
+        ],
+        "abstract": "A technical deep dive into the architecture of Transformers, attention mechanisms, and their impact on modern AI. Assumes familiarity with basic neural networks.",
+        "prerequisites": [
+          "T12",
+          "T01",
+          "T18",
+          "T05",
+          "T13",
+          "T15",
+          "T19",
+          "T03",
+          "T04"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'An Introduction to Reinforcement Learning', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning', 'Introduction to Natural Language Processing: Text to Insights', 'Mastering Large Language Models: Fine-Tuning and Deployment'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 15,
+        "talk_id": "T06",
+        "title": "Generative AI for Art and Design: Exploring GANs and Diffusion Models",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Computer Vision",
+          "Generative AI",
+          "GANs",
+          "Diffusion Models",
+          "Art"
+        ],
+        "abstract": "Explore the cutting-edge of image generation, from the mechanics of Generative Adversarial Networks (GANs) to the power of modern diffusion models.",
+        "prerequisites": [
+          "T01",
+          "T18",
+          "T02",
+          "T05",
+          "T13",
+          "T15",
+          "T19"
+        ],
+        "reasoning": "Mid-conference - builds on foundations. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Advanced Deep Learning Architectures: Transformers and Beyond', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning'."
+      },
+      {
+        "session_order": 16,
+        "talk_id": "T06",
+        "title": "Generative AI for Art and Design: Exploring GANs and Diffusion Models",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Computer Vision",
+          "Generative AI",
+          "GANs",
+          "Diffusion Models",
+          "Art"
+        ],
+        "abstract": "Explore the cutting-edge of image generation, from the mechanics of Generative Adversarial Networks (GANs) to the power of modern diffusion models.",
+        "prerequisites": [
+          "T01",
+          "T18",
+          "T02",
+          "T05",
+          "T13",
+          "T15",
+          "T19"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Advanced Deep Learning Architectures: Transformers and Beyond', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning'."
+      },
+      {
+        "session_order": 17,
+        "talk_id": "T02",
+        "title": "Advanced Deep Learning Architectures: Transformers and Beyond",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Machine Learning",
+          "Deep Learning",
+          "Transformers",
+          "NLP",
+          "Architecture"
+        ],
+        "abstract": "A technical deep dive into the architecture of Transformers, attention mechanisms, and their impact on modern AI. Assumes familiarity with basic neural networks.",
+        "prerequisites": [
+          "T12",
+          "T01",
+          "T18",
+          "T05",
+          "T13",
+          "T15",
+          "T19",
+          "T03",
+          "T04"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'An Introduction to Reinforcement Learning', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning', 'Introduction to Natural Language Processing: Text to Insights', 'Mastering Large Language Models: Fine-Tuning and Deployment'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 18,
+        "talk_id": "T02",
+        "title": "Advanced Deep Learning Architectures: Transformers and Beyond",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Machine Learning",
+          "Deep Learning",
+          "Transformers",
+          "NLP",
+          "Architecture"
+        ],
+        "abstract": "A technical deep dive into the architecture of Transformers, attention mechanisms, and their impact on modern AI. Assumes familiarity with basic neural networks.",
+        "prerequisites": [
+          "T12",
+          "T01",
+          "T18",
+          "T05",
+          "T13",
+          "T15",
+          "T19",
+          "T03",
+          "T04"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'An Introduction to Reinforcement Learning', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning', 'Introduction to Natural Language Processing: Text to Insights', 'Mastering Large Language Models: Fine-Tuning and Deployment'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 19,
+        "talk_id": "T04",
+        "title": "Mastering Large Language Models: Fine-Tuning and Deployment",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "NLP",
+          "LLM",
+          "Generative AI",
+          "Fine-Tuning",
+          "Deployment"
+        ],
+        "abstract": "This session covers practical techniques for fine-tuning pre-trained LLMs like GPT and Llama for specific tasks and deploying them efficiently.",
+        "prerequisites": [
+          "T16",
+          "T01",
+          "T18",
+          "T03",
+          "T05",
+          "T13",
+          "T15",
+          "T19"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'The Role of Vector Databases in Generative AI', 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity', 'Introduction to Natural Language Processing: Text to Insights', 'Fundamentals of Computer Vision with CNNs', 'Deep Reinforcement Learning for Game AI', 'Graph Neural Networks: The Future of Connected Data', 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Enables 2 follow-up topics."
+      },
+      {
+        "session_order": 20,
+        "talk_id": "T27",
+        "title": "Edge Computing for Real-Time AI",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Edge AI",
+          "IoT",
+          "Deployment",
+          "Real-Time AI",
+          "Hardware"
+        ],
+        "abstract": "Learn about the challenges and benefits of deploying AI models on edge devices like smartphones and IoT sensors for low-latency inference.",
+        "prerequisites": [
+          "T05",
+          "T19"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Fundamentals of Computer Vision with CNNs', 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 21,
+        "talk_id": "T27",
+        "title": "Edge Computing for Real-Time AI",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Edge AI",
+          "IoT",
+          "Deployment",
+          "Real-Time AI",
+          "Hardware"
+        ],
+        "abstract": "Learn about the challenges and benefits of deploying AI models on edge devices like smartphones and IoT sensors for low-latency inference.",
+        "prerequisites": [
+          "T05",
+          "T19"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Fundamentals of Computer Vision with CNNs', 'Recommender Systems: From Collaborative Filtering to Deep Learning'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 22,
+        "talk_id": "T11",
+        "title": "Explainable AI (XAI): Techniques with SHAP and LIME",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "XAI",
+          "Explainability",
+          "Model Interpretation",
+          "SHAP",
+          "LIME",
+          "AI Ethics"
+        ],
+        "abstract": "This technical talk introduces methods for interpreting 'black box' models, making their predictions understandable to humans.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'."
+      },
+      {
+        "session_order": 23,
+        "talk_id": "T19",
+        "title": "Recommender Systems: From Collaborative Filtering to Deep Learning",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Recommender Systems",
+          "Collaborative Filtering",
+          "Deep Learning",
+          "Personalization"
+        ],
+        "abstract": "An overview of the evolution of recommender systems, starting from classic matrix factorization methods to modern, deep learning-based approaches.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'. Enables 6 follow-up topics."
+      },
+      {
+        "session_order": 24,
+        "talk_id": "T28",
+        "title": "The Legal Landscape of Generative AI",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Legal",
+          "Copyright",
+          "Generative AI",
+          "AI Ethics",
+          "Regulation"
+        ],
+        "abstract": "A discussion on the emerging legal and copyright issues surrounding AI-generated content, training data, and intellectual property.",
+        "prerequisites": [
+          "T05"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Fundamentals of Computer Vision with CNNs'. Enables 2 follow-up topics."
+      },
+      {
+        "session_order": 25,
+        "talk_id": "T07",
+        "title": "Data Warehousing in the Cloud: A Primer",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Data Engineering",
+          "Cloud",
+          "Data Warehouse",
+          "SQL",
+          "Big Data"
+        ],
+        "abstract": "An overview of modern data warehousing solutions like BigQuery and Snowflake, focusing on storing and accessing large-scale datasets.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights', 'An Introduction to Reinforcement Learning'. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 26,
+        "talk_id": "T08",
+        "title": "Building Scalable Data Pipelines with Apache Airflow",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Data Engineering",
+          "ETL",
+          "Orchestration",
+          "Airflow",
+          "Pipelines"
+        ],
+        "abstract": "Learn how to orchestrate complex data workflows, moving and transforming data from source to destination for analytics and ML.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12",
+          "T07"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights', 'An Introduction to Reinforcement Learning', 'Data Warehousing in the Cloud: A Primer'."
+      },
+      {
+        "session_order": 27,
+        "talk_id": "T17",
+        "title": "Data Visualization with Plotly: Creating Interactive Dashboards",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Data Visualization",
+          "Plotly",
+          "Dashboards",
+          "BI",
+          "Python"
+        ],
+        "abstract": "Learn how to build beautiful, interactive data visualizations and web-based dashboards using the Plotly library in Python.",
+        "prerequisites": [
+          "T01",
+          "T03",
+          "T12"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Introduction to Natural Language Processing: Text to Insights', 'An Introduction to Reinforcement Learning'."
+      },
+      {
+        "session_order": 28,
+        "talk_id": "T13",
+        "title": "Deep Reinforcement Learning for Game AI",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "Reinforcement Learning",
+          "Deep Learning",
+          "Game AI",
+          "Robotics"
+        ],
+        "abstract": "Building on RL basics, this talk explores how deep neural networks can be used to solve complex problems, with a focus on creating intelligent game agents.",
+        "prerequisites": [
+          "T01",
+          "T18"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'Foundations of Machine Learning: From Regression to Random Forests', 'Anomaly Detection for Cybersecurity'. Enables 4 follow-up topics."
+      },
+      {
+        "session_order": 29,
+        "talk_id": "T25",
+        "title": "Agile Methodologies for Data Science Teams",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Project Management",
+          "Agile",
+          "Data Science Teams",
+          "Workflow"
+        ],
+        "abstract": "How to adapt agile project management principles for the unique, research-oriented workflows of data science projects.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content."
+      },
+      {
+        "session_order": 30,
+        "talk_id": "T21",
+        "title": "The Psychology of User Engagement in AI Products",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Product Management",
+          "UX",
+          "AI Products",
+          "Business"
+        ],
+        "abstract": "A non-technical talk focused on product management principles for designing AI-powered features that are intuitive and valuable to users.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 31,
+        "talk_id": "T22",
+        "title": "Venture Capital Trends in the AI Startup Ecosystem",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Business",
+          "Venture Capital",
+          "Startups",
+          "AI Industry",
+          "Finance"
+        ],
+        "abstract": "An analysis of where investment is flowing in the AI industry, from foundational model companies to AI-powered SaaS applications.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content."
+      },
+      {
+        "session_order": 32,
+        "talk_id": "T20",
+        "title": "AI for Scientific Discovery: A Case Study in Genomics",
+        "difficulty": "Advanced",
+        "topic_tags": [
+          "AI Application",
+          "Genomics",
+          "Bioinformatics",
+          "Scientific Discovery",
+          "Healthcare"
+        ],
+        "abstract": "See a real-world application of machine learning in analyzing genomic data to accelerate research and drug discovery.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content."
+      },
+      {
+        "session_order": 33,
+        "talk_id": "T30",
+        "title": "Building a Career in Data Science: Skills and Strategies",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Career",
+          "Data Science",
+          "Skills",
+          "Interviewing",
+          "Professional Development"
+        ],
+        "abstract": "A panel discussion offering advice for aspiring data scientists on portfolio building, interviewing, and navigating a career in the field.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 34,
+        "talk_id": "T29",
+        "title": "A/B Testing and Causal Inference for Product Decisions",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Statistics",
+          "Causal Inference",
+          "A/B Testing",
+          "Product Analytics",
+          "Data Science"
+        ],
+        "abstract": "Move beyond simple correlations and learn how to use statistical methods to determine the true causal impact of product changes.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 35,
+        "talk_id": "T14",
+        "title": "Time Series Forecasting with Prophet",
+        "difficulty": "Intermediate",
+        "topic_tags": [
+          "Forecasting",
+          "Time Series",
+          "Prophet",
+          "Statistics",
+          "Analytics"
+        ],
+        "abstract": "A practical guide to forecasting future trends using Facebook's Prophet library, designed for business analysts and data scientists.",
+        "prerequisites": [
+          "T29"
+        ],
+        "reasoning": "Later session - advanced/specialized content. Follows prerequisites: 'A/B Testing and Causal Inference for Product Decisions'."
+      },
+      {
+        "session_order": 36,
+        "talk_id": "T10",
+        "title": "AI Ethics: Navigating Bias, Fairness, and Transparency",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "AI Ethics",
+          "Bias",
+          "Fairness",
+          "Responsible AI",
+          "Transparency"
+        ],
+        "abstract": "A critical look at the ethical challenges in AI, discussing how algorithmic bias is created and what can be done to promote fairness.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content. Enables 1 follow-up topics."
+      },
+      {
+        "session_order": 37,
+        "talk_id": "T24",
+        "title": "The Future of Work: How Automation is Reshaping Industries",
+        "difficulty": "Beginner",
+        "topic_tags": [
+          "Societal Impact",
+          "Automation",
+          "Future of Work",
+          "Economics",
+          "AI Ethics"
+        ],
+        "abstract": "A broad look at the societal and economic impacts of AI and automation on jobs, skills, and the global workforce.",
+        "prerequisites": [],
+        "reasoning": "Later session - advanced/specialized content. Enables 2 follow-up topics."
+      }
+    ]
+  }
+}

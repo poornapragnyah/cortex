@@ -1,0 +1,212 @@
+[
+  {
+    "talk_id": "T01",
+    "title": "Foundations of Machine Learning: From Regression to Random Forests",
+    "abstract": "An essential introduction to the core concepts of supervised and unsupervised learning, covering fundamental algorithms without the deep math.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Machine Learning", "Core Concepts", "Supervised Learning", "Regression", "Classification"]
+  },
+  {
+    "talk_id": "T02",
+    "title": "Advanced Deep Learning Architectures: Transformers and Beyond",
+    "abstract": "A technical deep dive into the architecture of Transformers, attention mechanisms, and their impact on modern AI. Assumes familiarity with basic neural networks.",
+    "difficulty": "Advanced",
+    "topic_tags": ["Machine Learning", "Deep Learning", "Transformers", "NLP", "Architecture"]
+  },
+  {
+    "talk_id": "T03",
+    "title": "Introduction to Natural Language Processing: Text to Insights",
+    "abstract": "Learn the basics of processing and understanding human language, including tokenization, sentiment analysis, and topic modeling.",
+    "difficulty": "Beginner",
+    "topic_tags": ["NLP", "Text Processing", "Sentiment Analysis", "Core Concepts"]
+  },
+  {
+    "talk_id": "T04",
+    "title": "Mastering Large Language Models: Fine-Tuning and Deployment",
+    "abstract": "This session covers practical techniques for fine-tuning pre-trained LLMs like GPT and Llama for specific tasks and deploying them efficiently.",
+    "difficulty": "Advanced",
+    "topic_tags": ["NLP", "LLM", "Generative AI", "Fine-Tuning", "Deployment"]
+  },
+  {
+    "talk_id": "T05",
+    "title": "Fundamentals of Computer Vision with CNNs",
+    "abstract": "A beginner-friendly guide to how computers 'see,' focusing on Convolutional Neural Networks (CNNs) for image classification.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Computer Vision", "CNN", "Image Classification", "Deep Learning"]
+  },
+  {
+    "talk_id": "T06",
+    "title": "Generative AI for Art and Design: Exploring GANs and Diffusion Models",
+    "abstract": "Explore the cutting-edge of image generation, from the mechanics of Generative Adversarial Networks (GANs) to the power of modern diffusion models.",
+    "difficulty": "Advanced",
+    "topic_tags": ["Computer Vision", "Generative AI", "GANs", "Diffusion Models", "Art"]
+  },
+  {
+    "talk_id": "T07",
+    "title": "Data Warehousing in the Cloud: A Primer",
+    "abstract": "An overview of modern data warehousing solutions like BigQuery and Snowflake, focusing on storing and accessing large-scale datasets.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Data Engineering", "Cloud", "Data Warehouse", "SQL", "Big Data"]
+  },
+  {
+    "talk_id": "T08",
+    "title": "Building Scalable Data Pipelines with Apache Airflow",
+    "abstract": "Learn how to orchestrate complex data workflows, moving and transforming data from source to destination for analytics and ML.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Data Engineering", "ETL", "Orchestration", "Airflow", "Pipelines"]
+  },
+  {
+    "talk_id": "T09",
+    "title": "MLOps in Practice: Automating the Machine Learning Lifecycle",
+    "abstract": "Go beyond the model and learn how to build a robust, automated pipeline for training, versioning, and deploying models into production.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["MLOps", "Deployment", "Automation", "CI/CD", "Lifecycle Management"]
+  },
+  {
+    "talk_id": "T10",
+    "title": "AI Ethics: Navigating Bias, Fairness, and Transparency",
+    "abstract": "A critical look at the ethical challenges in AI, discussing how algorithmic bias is created and what can be done to promote fairness.",
+    "difficulty": "Beginner",
+    "topic_tags": ["AI Ethics", "Bias", "Fairness", "Responsible AI", "Transparency"]
+  },
+  {
+    "talk_id": "T11",
+    "title": "Explainable AI (XAI): Techniques with SHAP and LIME",
+    "abstract": "This technical talk introduces methods for interpreting 'black box' models, making their predictions understandable to humans.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["XAI", "Explainability", "Model Interpretation", "SHAP", "LIME", "AI Ethics"]
+  },
+  {
+    "talk_id": "T12",
+    "title": "An Introduction to Reinforcement Learning",
+    "abstract": "Grasp the fundamentals of RL, including agents, environments, rewards, and the core concepts behind Q-learning.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Reinforcement Learning", "Q-Learning", "Core Concepts", "AI"]
+  },
+  {
+    "talk_id": "T13",
+    "title": "Deep Reinforcement Learning for Game AI",
+    "abstract": "Building on RL basics, this talk explores how deep neural networks can be used to solve complex problems, with a focus on creating intelligent game agents.",
+    "difficulty": "Advanced",
+    "topic_tags": ["Reinforcement Learning", "Deep Learning", "Game AI", "Robotics"]
+  },
+  {
+    "talk_id": "T14",
+    "title": "Time Series Forecasting with Prophet",
+    "abstract": "A practical guide to forecasting future trends using Facebook's Prophet library, designed for business analysts and data scientists.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Forecasting", "Time Series", "Prophet", "Statistics", "Analytics"]
+  },
+  {
+    "talk_id": "T15",
+    "title": "Graph Neural Networks: The Future of Connected Data",
+    "abstract": "Discover how GNNs can be used to model relationships in data, with applications in social networks, recommendation engines, and drug discovery.",
+    "difficulty": "Advanced",
+    "topic_tags": ["Graph Neural Networks", "GNN", "Graph Data", "Deep Learning", "Networks"]
+  },
+  {
+    "talk_id": "T16",
+    "title": "The Role of Vector Databases in Generative AI",
+    "abstract": "Understand why specialized databases like Pinecone and Weaviate are becoming essential infrastructure for building applications with LLMs.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Vector Database", "Generative AI", "LLM", "Embeddings", "Infrastructure"]
+  },
+  {
+    "talk_id": "T17",
+    "title": "Data Visualization with Plotly: Creating Interactive Dashboards",
+    "abstract": "Learn how to build beautiful, interactive data visualizations and web-based dashboards using the Plotly library in Python.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Data Visualization", "Plotly", "Dashboards", "BI", "Python"]
+  },
+  {
+    "talk_id": "T18",
+    "title": "Anomaly Detection for Cybersecurity",
+    "abstract": "Explore machine learning techniques used to identify unusual patterns and potential threats in network traffic and system logs.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Cybersecurity", "Anomaly Detection", "Security AI", "Machine Learning"]
+  },
+  {
+    "talk_id": "T19",
+    "title": "Recommender Systems: From Collaborative Filtering to Deep Learning",
+    "abstract": "An overview of the evolution of recommender systems, starting from classic matrix factorization methods to modern, deep learning-based approaches.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Recommender Systems", "Collaborative Filtering", "Deep Learning", "Personalization"]
+  },
+  {
+    "talk_id": "T20",
+    "title": "AI for Scientific Discovery: A Case Study in Genomics",
+    "abstract": "See a real-world application of machine learning in analyzing genomic data to accelerate research and drug discovery.",
+    "difficulty": "Advanced",
+    "topic_tags": ["AI Application", "Genomics", "Bioinformatics", "Scientific Discovery", "Healthcare"]
+  },
+  {
+    "talk_id": "T21",
+    "title": "The Psychology of User Engagement in AI Products",
+    "abstract": "A non-technical talk focused on product management principles for designing AI-powered features that are intuitive and valuable to users.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Product Management", "UX", "AI Products", "Business"]
+  },
+  {
+    "talk_id": "T22",
+    "title": "Venture Capital Trends in the AI Startup Ecosystem",
+    "abstract": "An analysis of where investment is flowing in the AI industry, from foundational model companies to AI-powered SaaS applications.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Business", "Venture Capital", "Startups", "AI Industry", "Finance"]
+  },
+  {
+    "talk_id": "T23",
+    "title": "Quantum Computing: An Overview for the AI Practitioner",
+    "abstract": "What is quantum computing and how might it intersect with machine learning in the future? A high-level overview for a technical audience.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Quantum Computing", "Future Tech", "AI", "Algorithms"]
+  },
+  {
+    "talk_id": "T24",
+    "title": "The Future of Work: How Automation is Reshaping Industries",
+    "abstract": "A broad look at the societal and economic impacts of AI and automation on jobs, skills, and the global workforce.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Societal Impact", "Automation", "Future of Work", "Economics", "AI Ethics"]
+  },
+  {
+    "talk_id": "T25",
+    "title": "Agile Methodologies for Data Science Teams",
+    "abstract": "How to adapt agile project management principles for the unique, research-oriented workflows of data science projects.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Project Management", "Agile", "Data Science Teams", "Workflow"]
+  },
+  {
+    "talk_id": "T26",
+    "title": "Blockchain and AI: Synergies and Opportunities",
+    "abstract": "Explores the potential intersection of decentralized ledger technology and artificial intelligence, covering topics like data integrity and decentralized autonomous organizations (DAOs).",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Blockchain", "AI", "Decentralization", "Future Tech", "Web3"]
+  },
+  {
+    "talk_id": "T27",
+    "title": "Edge Computing for Real-Time AI",
+    "abstract": "Learn about the challenges and benefits of deploying AI models on edge devices like smartphones and IoT sensors for low-latency inference.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Edge AI", "IoT", "Deployment", "Real-Time AI", "Hardware"]
+  },
+  {
+    "talk_id": "T28",
+    "title": "The Legal Landscape of Generative AI",
+    "abstract": "A discussion on the emerging legal and copyright issues surrounding AI-generated content, training data, and intellectual property.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Legal", "Copyright", "Generative AI", "AI Ethics", "Regulation"]
+  },
+  {
+    "talk_id": "T29",
+    "title": "A/B Testing and Causal Inference for Product Decisions",
+    "abstract": "Move beyond simple correlations and learn how to use statistical methods to determine the true causal impact of product changes.",
+    "difficulty": "Intermediate",
+    "topic_tags": ["Statistics", "Causal Inference", "A/B Testing", "Product Analytics", "Data Science"]
+  },
+  {
+    "talk_id": "T30",
+    "title": "Building a Career in Data Science: Skills and Strategies",
+    "abstract": "A panel discussion offering advice for aspiring data scientists on portfolio building, interviewing, and navigating a career in the field.",
+    "difficulty": "Beginner",
+    "topic_tags": ["Career", "Data Science", "Skills", "Interviewing", "Professional Development"]
+  }
+]
