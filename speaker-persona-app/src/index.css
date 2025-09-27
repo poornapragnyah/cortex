@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    @apply bg-white text-primary-800 font-inter antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent-700 hover:bg-accent-800 text-white font-medium py-3 px-6 rounded-lg transition-all duration-200 ease-in-out shadow-subtle hover:shadow-card;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-primary-50 text-primary-800 font-medium py-3 px-6 rounded-lg border border-primary-200 transition-all duration-200 ease-in-out;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl border border-primary-100 p-6 shadow-subtle hover:shadow-card transition-all duration-200;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-primary-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent-700 focus:border-transparent transition-all duration-200;
+  }
+  
+  .status-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+  
+  .status-submitted {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800;
+  }
+  
+  .status-approved {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800;
+  }
+  
+  .status-rejected {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800;
+  }
+  
+  .status-hold {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800;
+  }
+}
